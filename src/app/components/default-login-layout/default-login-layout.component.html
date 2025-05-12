@@ -17,13 +17,18 @@
         <span>or</span>
         <div></div>
       </div>
-      <button class="btn-secondary" (click)="navigate()">
-        {{ secondaryButtonText }}
-      </button>
+      <div class="secondary-wrapper">
+        <span>
+          {{ secondaryButtonLabel }}
+        </span>
+        <button class="btn-secondary" (click)="navigate()">
+          {{ secondaryButtonText }}
+        </button>
+      </div>
     </div>
   </section>
   <section class="main-section">
-    <h1>LOGO</h1>
-    <img src="/assets/logo.png" />
+    <!-- <h1>LOGO</h1> -->
+    <img src="/assets/logo2.png" />
   </section>
 </main>

@@ -1,7 +1,8 @@
 <app-default-login-layout
-  title="Login into your account"
-  primaryButtonText="Login"
-  secondaryButtonText="Signup"
+  title="Sign in to your account!"
+  primaryButtonText="Sign in"
+  secondaryButtonText="Sign up"
+  secondaryButtonLabel="Don't have an account?"
   (submit)="submit()"
   (navigate)="navigate()"
   [disablePrimaryButton]="!loginForm.valid"
@@ -14,7 +15,7 @@
       label="Email"
       placeholder="johndoe@mail.com"
     >
-      <img src="/assets/svg/email-icon.svg" />
+      <img src="/assets/svg/emailicon.svg" />
     </app-primary-input>
 
     <app-primary-input
@@ -24,7 +25,7 @@
       label="Your Password"
       placeholder="******"
     >
-      <img src="/assets/svg/password-icon.svg" />
+      <img src="/assets/svg/passwordicon.svg" />
     </app-primary-input>
     <span>Forgot password?</span>
   </form>
