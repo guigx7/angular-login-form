@@ -1,4 +1,4 @@
-@import "../../../styles/variables.scss";
+@use "../../../styles/variables.scss" as *;
 
 main {
   display: flex;
@@ -97,7 +97,7 @@ main {
 
       span {
         font-size: 14px;
-        color: $gray-color;
+        color: $text-color;
         text-align: end;
         margin-top: -10px;
         margin-bottom: 4px;
